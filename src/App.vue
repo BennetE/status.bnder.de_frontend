@@ -1,15 +1,15 @@
 <template>
     <div id="app">
-        <MainNavigation />
+        <MainNavigationComponent />
         <router-view />
     </div>
 </template>
 
 <script>
-import MainNavigation from "@/components/main/MainNavigation.vue";
+import MainNavigationComponent from "@/components/main/MainNavigationComponent.vue";
 export default {
     components: {
-        MainNavigation
+        MainNavigationComponent
     }
 };
 </script>

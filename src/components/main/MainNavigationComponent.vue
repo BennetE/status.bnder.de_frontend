@@ -7,7 +7,7 @@
 
 <script>
 export default {
-    name: "MainNavigation"
+    name: "MainNavigationComponent"
 };
 </script>
 
@@ -21,7 +21,7 @@ export default {
         color: #2c3e50;
 
         &.router-link-exact-active {
-            color: #42b983;
+            color: #0a6;
         }
     }
 }
